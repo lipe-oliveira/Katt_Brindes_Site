@@ -1,0 +1,55 @@
+header#main-header{
+    height: 8pc;
+    background: #712fda;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 100pc;
+    color: #FFF;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    
+}
+
+header#main-header div{
+    margin-right: 0pc;
+    position: relative;
+}
+
+header#main-header div button{
+    width: 100px    ;
+    border: 1px #FFF solid;
+    border-radius: 5px;
+    padding: 10px 10px 10px;
+    background: #712fda;
+    color:#FFF;
+    margin: 10px 2px 0px ;
+    font-size: 16px;
+}
+
+header#main-header div button:hover{
+    background: #FFF;
+    width: 120px;
+    color: #712fda;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+header#main-header p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: none;
+
+}
+
+header#main-header p{
+    font-size: 14px;
+    color: #dadada;
+}
+
+header#main-header h3{
+}
+

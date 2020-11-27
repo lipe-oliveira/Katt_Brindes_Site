@@ -1,0 +1,6 @@
+Criar o ambiente do ReactJs -> "npm install -g create-react-app"
+No Power Shell, execute como administrador o comando -> "Set-ExecutionPolicy AllSigned" 
+Nomear e executar a criação do ambiente -> "create-react-app <nome>"
+A pasta "public" é a parte que será acessível ao usuário final.
+Adicionar a biblioteca de requisição de api -> "yarn add axios" 
+yarn add react-router-dom
