@@ -19,7 +19,7 @@ export default class Main extends Component{
         const response = await api.get(`/get_produtos?page=${page}`);
         const {docs, ...produtosinfo} = response.data
         this.setState({produtos: response.data.docs});
-        console.log(produtosinfo);
+        console.log(docs[0].imgs[0].imagem);
     }
 
     render(){
@@ -32,7 +32,7 @@ export default class Main extends Component{
 
                     {produtos.map(produto => (
                         <article key={produto._id}>
-                            <img src={logo192} alt="Produto"/>
+                            <img src={`data:image/jpeg;base64,${produto.imgs[0].imagem}`} alt="Produto"/>
                             <br/>
                             <div>
                                 <strong>{produto.nome}</strong>
