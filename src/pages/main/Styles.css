@@ -23,12 +23,14 @@
     height: 42px;
     border-radius: 5px;
     border: 1px solid #712fda;
+    color: #712fda;
     background: none;
-    margin:10px 10px 0px;
+    margin: 10px 10px 0px;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    vertical-align: bottom;
 }
 
 .lista-produtos article a:hover{
@@ -56,5 +58,6 @@
 .lista-produtos article div{
     display: block;
     margin:10px 15px 10px;
+    min-height: 10pc;
 }
 
