@@ -4,7 +4,7 @@ import "./Styles.css"
 
 const Header = () => (
     <header id="main-header">
-        <h3>BBP - Katte brindes personalizados</h3>
+        <h3>KBP - Katte brindes personalizados</h3>
         <br/>
         
         <div>
