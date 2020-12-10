@@ -6,7 +6,7 @@ import Produto from './pages/produto/index';
 const Routes = () => (
     <BrowserRouter>
         <Switch>
-            <Route exact path="/" component={Main}/>
+            <Route exact path="/produtos" component={Main}/>
             <Route path='/produtos/:id' component={Produto}/>
         </Switch>
     </BrowserRouter>

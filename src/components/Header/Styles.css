@@ -19,7 +19,7 @@ header#main-header div{
     position: relative;
 }
 
-header#main-header div button{
+header#main-header div Link{
     width: 100px    ;
     border: 1px #FFF solid;
     border-radius: 5px;
@@ -30,7 +30,7 @@ header#main-header div button{
     font-size: 16px;
 }
 
-header#main-header div button:hover{
+header#main-header div Link:hover{
     background: #FFF;
     width: 120px;
     color: #712fda;

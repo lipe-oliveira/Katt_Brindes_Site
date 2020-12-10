@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import api from "../../services/api";
 import './Styles.css'
 import {Link} from 'react-router-dom';
-import logo192 from '../../logo192.png'
 
 export default class Main extends Component{
     state = {

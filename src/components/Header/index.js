@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Styles.css"
+import {Link} from 'react-router-dom'
 
 
 const Header = () => (
@@ -8,7 +9,7 @@ const Header = () => (
         <br/>
         
         <div>
-            <button>Produtos</button>
+        <Link to={`/produtos/`}>Produtos</Link>
             <button>Contato </button>
             <button>Sobre   </button>
         </div>
