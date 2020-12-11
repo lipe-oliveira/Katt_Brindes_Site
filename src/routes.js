@@ -9,12 +9,12 @@ const Routes = () => (
         <Switch>
             <Route exact path="/" render={() => {
                 return(
-                    <Redirect to="/produtos/"/>
+                    <Redirect exact to="/produtos/"/>
                 )
             }}/>
-            <Route exact path="/produtos" component={Main}/>
+            <Route path="/produtos/" component={Main}/>
             <Route path='/produtos/:id' component={Produto}/>
-            <Route path='/sobre' component={Sobre}/>
+            <Route path='/sobre/' component={Sobre}/>
         </Switch>
     </BrowserRouter>
 );

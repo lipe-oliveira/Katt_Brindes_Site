@@ -16,7 +16,7 @@ export default class Sobre extends Component{
         const response = await api.get(`/get_logo`);
         const {img} = response.data
         this.setState({img: img});
-        console.log(this.state.img);
+        console.log("img: " + this.state.img);
     }
 
     render(){
