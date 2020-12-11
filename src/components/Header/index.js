@@ -1,19 +1,27 @@
-import React from 'react';
+import React, { Component } from 'react';
 import "./Styles.css"
-import {Link} from 'react-router-dom'
+import {BrowserRouter, Link, Redirect} from 'react-router-dom';
 
 
-const Header = () => (
-    <header id="main-header">
+class Header extends Component{
+    render(){
+        return(
+        <header id="main-header">
         <h3>KBP - Katte brindes personalizados</h3>
         <br/>
         
         <div>
-        <Link to={`/produtos/`}>Produtos</Link>
-            <button>Contato </button>
-            <button>Sobre   </button>
+            <BrowserRouter>
+                <Link className="btn-header-link" to={`/produtos/`}>Produtos</Link>
+                <Link className="btn-header-link" to={`/produtos/`}>Contato</Link>
+                <Link className="btn-header-link" to={`/produtos/`}>Sobre</Link>
+            </BrowserRouter>
+            
         </div>
     </header>
-);
+        )
+    }
+    
+};
 
 export default Header;
