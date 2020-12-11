@@ -12,9 +12,9 @@ const Routes = () => (
                     <Redirect exact to="/produtos/"/>
                 )
             }}/>
-            <Route path="/produtos/" component={Main}/>
+            <Route exact path="/produtos/" component={Main}/>
             <Route path='/produtos/:id' component={Produto}/>
-            <Route path='/sobre/' component={Sobre}/>
+            <Route exact path='/sobre/' component={Sobre}/>
         </Switch>
     </BrowserRouter>
 );
