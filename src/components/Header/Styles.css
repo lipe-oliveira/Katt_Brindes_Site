@@ -20,7 +20,8 @@ header#main-header div{
 }
 
 .btn-header-link{
-    width: 100px    ;
+    display: inline-block;
+    width: 100px;
     border: 1px #FFF solid;
     border-radius: 5px;
     padding: 10px 10px 10px;

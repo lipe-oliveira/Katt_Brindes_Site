@@ -14,7 +14,7 @@ class Header extends Component{
             <BrowserRouter>
                 <Link className="btn-header-link" to={`/produtos/`}>Produtos</Link>
                 <Link className="btn-header-link" to={`/produtos/`}>Contato</Link>
-                <Link className="btn-header-link" to={`/produtos/`}>Sobre</Link>
+                <Link className="btn-header-link" to={`/sobre/`}>Sobre</Link>
             </BrowserRouter>
             
         </div>
