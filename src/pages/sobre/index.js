@@ -22,8 +22,8 @@ export default class Sobre extends Component{
     render(){
         const { img } = this.state;
         return(
-            <div className='div-produtos'>
-                <img src={`data:image/jpeg;base64,${img.img}`} alt="Produto"/>
+            <div className='div-sobre'>
+                <img src={`data:image/jpeg;base64,${img}`} alt="Produto"/>
 
             </div>
             

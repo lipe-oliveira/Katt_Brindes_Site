@@ -18,7 +18,7 @@ export default class Main extends Component{
         const response = await api.get(`/get_produtos?page=${page}`);
         const {docs, ...produtosinfo} = response.data
         this.setState({produtos: response.data.docs});
-        console.log(docs[0].imgs[0].imagem);
+        //console.log(docs[0].imgs[0].imagem);
     }
 
     render(){

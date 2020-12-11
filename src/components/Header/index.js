@@ -12,9 +12,9 @@ class Header extends Component{
         
         <div>
             <BrowserRouter>
-                <Link className="btn-header-link" to={`/produtos/`}>Produtos</Link>
-                <Link className="btn-header-link" to={`/produtos/`}>Contato</Link>
-                <Link className="btn-header-link" to={`/sobre/`}>Sobre</Link>
+                <Link className="btn-header-link" to={`/produtos/`} onClick={()=>window.location.href="/produtos"}> Produtos</Link>
+                <Link className="btn-header-link" to={`/produtos/`}> Contato</Link>
+                <Link className="btn-header-link" to={`/sobre/`} onClick={()=>window.location.href="/sobre"}> Sobre</Link>
             </BrowserRouter>
             
         </div>
