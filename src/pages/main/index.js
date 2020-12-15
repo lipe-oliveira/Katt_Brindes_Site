@@ -25,8 +25,6 @@ export default class Main extends Component{
         const { produtos } = this.state;
         return(
             <div className='div-produtos'>
-                <h3>Produtos</h3>
-
                 <div className='lista-produtos'>
 
                     {produtos.map(produto => (

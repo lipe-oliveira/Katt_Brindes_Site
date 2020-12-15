@@ -1,6 +1,6 @@
 header#main-header{
-    height: 8pc;
     background: #712fda;
+    height: 41pc;
     width: 100%;
     font-size: 18px;
     font-weight: bold;
@@ -10,8 +10,8 @@ header#main-header{
     align-items: center;
     justify-content: center;
     text-align: center;
-    position: fixed;
-    
+    position: sticky;
+    margin-bottom: 0pc;
 }
 
 header#main-header div{
