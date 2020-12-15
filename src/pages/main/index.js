@@ -24,9 +24,12 @@ export default class Main extends Component{
     render(){
         const { produtos } = this.state;
         return(
+            
             <div className='div-produtos'>
+                <div className='div-load'>
+                    KBP - Katte brindes personalizados
+                </div>
                 <div className='lista-produtos'>
-
                     {produtos.map(produto => (
                         <article key={produto._id}>
                             <img src={`data:image/jpeg;base64,${produto.imgs[0].imagem}`} alt="Produto"/>

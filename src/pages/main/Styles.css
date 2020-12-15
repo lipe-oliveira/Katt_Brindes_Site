@@ -1,3 +1,6 @@
+.div-produtos{
+    margin-top: 3pc;
+}
 .lista-produtos{
     max-width: 100px;
     margin: 1pc auto 10px;
@@ -10,6 +13,14 @@
     justify-content: center;
 }
 
+.div-load{
+    text-align: center;
+    height: 39pc;
+    height: 0px;
+    background-color: #712fda;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #505050 0%, #712fda 100%, #505050 5%);
+}
 .lista-produtos article{
     background: #FFF;
     border: 1px solid #DDD;
