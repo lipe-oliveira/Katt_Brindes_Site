@@ -1,5 +1,4 @@
 import Header from "./components/Header/index"
-import Main from "./pages/main/index"
 import Routes from "./routes"
 
 import "./Styles.css"

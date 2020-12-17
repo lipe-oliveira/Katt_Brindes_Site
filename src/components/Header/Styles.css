@@ -14,10 +14,14 @@ header#main-header{
     border: 1px block #712fda;
 }
 
+.div-principal{
+    width: 100%;
+}
 .div-name{
     height: 5pc;
     transition: 0.4s;
     overflow: hidden;
+    background-color: #e7e7e7;
 }
 
 .div-name h1{

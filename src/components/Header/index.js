@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./Styles.css"
-import {BrowserRouter, Link, Redirect} from 'react-router-dom';
+import {BrowserRouter, Link} from 'react-router-dom';
 
 
 
@@ -25,7 +25,7 @@ class Header extends Component{
 
     render(){
         return(
-        <div>
+        <div className='div-principal'>
             <div className='div-name' style={this.state}>
                 <h1>KBP</h1>
                 <h4>Katte Brindes Personalizados</h4>
