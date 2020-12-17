@@ -5,7 +5,7 @@ header#main-header{
     width: 100%;
     font-size: 18px;
     font-weight: bold;
-    max-width: 100pc;
+    max-width: 100%;
     color: #FFF;
     align-items: center;
     justify-content: center;
